@@ -1,0 +1,126 @@
+.button {
+    -fx-background-color: black;
+    -fx-background-radius: 5;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+
+
+}
+
+.button:pressed {
+    -fx-background-color: #CCCCCC;
+
+}
+
+.button:hover {
+    -fx-background-color:  #202020;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 10, 0.5 , 0 , 0 );
+
+}
+
+.password-field {
+    -fx-background-color: #a9a9a9 , #eeeeee , #eeeeee;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+}
+
+.password-field:hover {
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+
+.text-field:pressed {
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 2, 0.5 , 0 , 0 );
+}
+
+.text-field {
+    -fx-background-color: #a9a9a9 , #eeeeee , #eeeeee;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+}
+
+.text-field:hover {
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+
+.text-field:focused {
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 2, 0.5 , 0 , 0 );
+}
+
+.date-picker {
+    -fx-background-color: #a9a9a9 , #eeeeee , #eeeeee;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+}
+.date-picker:hover {
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+
+.combo-box {
+    -fx-background-color: #a9a9a9 , #eeeeee , #eeeeee;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-text-fill: #dddddd;
+}
+.combo-box:hover {
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+    -fx-text-fill: #dddddd;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+}
+
+.table-view:hover{
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.5 , 0 , 0 );
+}
+
+.table-view:focused{
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 2, 0.5 , 0 , 0 );
+}
+
+.table-view .column-header-background{
+    -fx-background-color: black;
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: black;
+}
+
+.table-row-cell{
+    -fx-background-color: #eeeeee , #eeeeee;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #a9a9a9 , #e0e0e0 , #e0e0e0;
+    -fx-background-insets: 1 1 1 1, 0 0 0 0, 0 -0 0 0 ;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 2, 0.5 , 0 , 0 );
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #a9a9a9;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}

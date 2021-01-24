@@ -1,0 +1,22 @@
+.button {
+    -fx-background-color: black;
+    -fx-background-radius: 0;
+    -fx-background-insets: 0;
+    -fx-text-fill: #666666;
+
+
+}
+
+.button:selected
+{
+    -fx-text-fill: white;
+}
+
+.button:hover {
+
+    -fx-text-fill: white;
+    -fx-font-family : Verdana;
+    -fx-font-size: 17;
+    -fx-font-weight: bold;
+}
+
